@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Spring-React/static/css/main.e649e770.css",
-    "main.js": "/Spring-React/static/js/main.3bcdf5dd.js",
-    "static/js/453.85b2b7e9.chunk.js": "/Spring-React/static/js/453.85b2b7e9.chunk.js",
+    "main.js": "/Spring-React/static/js/main.57e2001d.js",
     "static/media/Main.png": "/Spring-React/static/media/Main.b45bb6f84cc39f9f80a8.png",
     "static/media/search-icon.svg": "/Spring-React/static/media/search-icon.51eb0a0655f6c182308d.svg",
     "static/media/Bucket.svg": "/Spring-React/static/media/Bucket.29e5b33e1f54078cc340e234fb91809c.svg",
@@ -10,11 +9,10 @@
     "static/media/Person.svg": "/Spring-React/static/media/Person.6c5c0709e6917eab1daee8862422a230.svg",
     "index.html": "/Spring-React/index.html",
     "main.e649e770.css.map": "/Spring-React/static/css/main.e649e770.css.map",
-    "main.3bcdf5dd.js.map": "/Spring-React/static/js/main.3bcdf5dd.js.map",
-    "453.85b2b7e9.chunk.js.map": "/Spring-React/static/js/453.85b2b7e9.chunk.js.map"
+    "main.57e2001d.js.map": "/Spring-React/static/js/main.57e2001d.js.map"
   },
   "entrypoints": [
     "static/css/main.e649e770.css",
-    "static/js/main.3bcdf5dd.js"
+    "static/js/main.57e2001d.js"
   ]
 }
