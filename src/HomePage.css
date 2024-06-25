@@ -1,0 +1,217 @@
+/* src/HomePage.css */
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  position: absolute;
+  width: 95%;
+  top: 0;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.menu-logo {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Ensure the logo maintains aspect ratio */
+  margin: 0 10px; /* Add margin if necessary */
+}
+
+.mixi-logo {
+  width: 60px; /* Adjust as needed */
+  height: 20px; /* Ensure the logo maintains aspect ratio */
+  margin: 0 10px; /* Add margin if necessary */
+}
+
+.search-container {
+  flex-grow: 1;
+  margin: 0 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  width: 50%; /* Increase the width of the search container */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 40px 10px 20px; /* Padding to make space for the icon */
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8); /* Background color to match the design */
+  outline: none;
+  background-image: url('./assets/search-icon.svg'); /* Corrected path to the search icon */
+  background-size: 20px 20px; /* Adjust size as needed */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.left-menu, .right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.right-menu a, .left-menu a {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: white; /* Ensure text is visible */
+  text-decoration: none;
+}
+
+.right-menu img, .left-menu img {
+  margin: 5px;
+}
+
+/* Menu styling */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly */
+  width: 100%;
+  padding: 10px 0;
+  margin: 0; 
+  margin-left: 10px; /* Remove default margin */
+}
+
+.menu li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu a {
+  color: black; /* Make text black */
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; /* Add padding for better click area */
+}
+
+/* Content styling */
+.content {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  padding: 10px; /* Optional: Add padding around the text */
+  border-radius: 10px; /* Optional: Add border radius */
+}
+
+.content button {
+  background-color: rgba(134, 195, 50, 0.25); /* Button background color with 25% opacity */
+  color: #86c232; /* Text color */
+  border: 2px solid #86c232; /* Border color */
+  border-radius: 75px; /* Adjust border radius to 75px */
+  padding: 10px 20px; /* Adjust padding */
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    width: 100%;
+    margin: 10px 0;
+    position: static; /* Reset to default for smaller screens */
+    transform: none; /* Reset transformation */
+  }
+
+  .content h1 {
+    font-size: 36px;
+  }
+
+  .content button {
+    font-size: 14px;
+    padding: 7px 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 5px 0;
+  }
+
+  .content h1 {
+    font-size: 32px;
+  }
+
+  .content button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    width: 100%;
+    margin: 10px 0;
+    position: static; /* Reset to default for smaller screens */
+    transform: none; /* Reset transformation */
+  }
+
+  .content h1 {
+    font-size: 28px;
+  }
+
+  .content button {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}
