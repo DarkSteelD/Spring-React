@@ -1,13 +1,13 @@
-// src/App.js
+// src/index.js
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 import HomePage from './HomePage';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <HomePage />
-    </div>
-  );
-}
-
-export default App;
+ReactDOM.render(
+  <BrowserRouter basename="/Spring-React">
+    <HomePage />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
