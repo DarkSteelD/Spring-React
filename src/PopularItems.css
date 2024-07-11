@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Code Next-Trial';
+  src: url('/home/dark/Documents/GitHub/Spring-React/src/assets/файлы/шрифт Code Next-Trial/CodeNext-Trial-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.popular-items {
+  font-family: 'Code Next-Trial', sans-serif;
+  padding: 20px;
+  background-image: url('../public/Pagebg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.item-popular{
+  display: flex;
+  flex-direction: column;
+}
+.popular-items h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-left: 1vw;
+  text-align: left;
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+}
+
+.item-card {
+  position: relative;
+  flex: 1 1 22%;
+  padding: 10px; /* Adjust padding if necessary */
+  text-align: left;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  gap: 10px;
+  flex-direction: column; /* Content organized vertically */
+}
+
+
+.item-card:hover {
+  transform: scale(1.05);
+}
+
+.item-card img.item-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the area without distorting aspect ratio */
+}
+
+.item-card h3 {
+  font-size: 18px;
+  margin: 5px 0; /* Reduce margin if necessary */
+}
+
+.item-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px; /* Ensure margins are not too large */
+}
+
+.favorite-icon:hover {
+  transform: scale(1.2);
+}
+
+.favorite-icon {
+  position: relative; /* Changed from absolute to relative */
+  margin-right: 10px; /* Space between the image and icon */
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favorite-icon:hover {
+  transform: scale(1.2); 
+}

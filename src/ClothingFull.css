@@ -1,0 +1,259 @@
+.clothing-full {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f7f6;
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  height: 20vh;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  width: 100%;
+  top: 0;
+  background-color: transparent; /* Ensure the navbar has a transparent background */
+  z-index: 10; /* Higher z-index to make navbar stay on top */
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  width: 90%; /* Navbar occupies 80% of the viewport width */
+  margin: auto; /* Centers the navbar horizontally */
+}
+
+.left-menu {
+  flex: 0 0 15%; /* Flex basis set to 15%, no grow, no shrink */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.right-menu {
+  flex: 0 0 15%; /* Flex basis set to 15%, no grow, no shrink */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 1vw;/* Center the content of left and right menus */
+}
+.search-container {
+  flex: 0 0 70%; /* Flex basis set to 50%, no grow, no shrink */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.collection-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-bar {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  background-image: url('./assets/search-icon.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.right-menu a {
+  flex-grow: 1; /* Allows each link in the right menu to take equal space */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally and vertically */
+  text-decoration: none;
+  margin: 0 5px; /* Margin for spacing between items */
+}
+
+.right-menu img {
+  margin-left: 5px; /* Spacing to the left of images */
+}
+
+.menu-logo, .mixi-logo {
+  width: auto;
+  height: 20px; /* Maintain aspect ratio */
+  margin: 10px 10px;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows the left-menu to grow and take available space */
+}
+
+ .right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.left-menu a {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Menu styling */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  font-family: 'Code Next-Trial', sans-serif; /* Apply the custom font */
+  font-size: 24px; /* Set the font size for the text */
+  color: black; /* Ensure the text color is black */
+}
+
+.ClothingWraper {
+  background-image: url('../public/Pagebg.png');
+  background-size: cover;
+  background-position: center;
+}
+.left-menu img {
+  margin: 20px; /* Increases right margin for more spacing around the image */
+}
+
+/* Adjustments to ensure the search bar is appropriately sized and positioned */
+
+.menu li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu a {
+  color: black; /* Set text color for links */
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+
+.sidebar {
+  width: 25vw;
+  border-right: 1px solid;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto;
+  flex: 1
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sidebar li:hover {
+  color: #6ab04c;
+}
+
+.main-content {
+  flex: 5;
+}
+
+.wrapper-content {
+  padding: 10px;
+  width: 100vw;
+  display: flex;
+}
+.clothing-full h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.collection-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px;
+}
+
+.collection-item {
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-item:hover {
+  transform: scale(1.05);
+}
+
+.collection-item .item-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.collection-item .item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  color: #333;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #333;
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favorite-icon:hover {
+  transform: scale(1.2); 
+}
+
+.collection-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: transparent;
+  border: 2px solid #6ab04c;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  color: #6ab04c;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.collection-button:hover {
+  background-color: #6ab04c;
+  color: white;
+  position: absolute;
+  transform: translateY(-50%);
+}

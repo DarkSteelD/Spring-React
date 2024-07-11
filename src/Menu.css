@@ -1,0 +1,169 @@
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: 100%;
+    top: 0;
+    background-color: transparent; /* Ensure the navbar has a transparent background */
+    z-index: 10; /* Higher z-index to make navbar stay on top */
+  }
+  
+  .navbar-top {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Navbar occupies full viewport width */
+    margin: auto; /* Centers the navbar horizontally */
+  }
+  
+  .left-menu {
+    flex: 0 0 15%; /* Flex basis set to 15%, no grow, no shrink */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .right-menu {
+    flex: 0 0 15%; /* Flex basis set to 15%, no grow, no shrink */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .search-container {
+    flex: 0 0 70%; /* Flex basis set to 70%, no grow, no shrink */
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    background-image: url('./assets/search-icon.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  
+  .right-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center items horizontally and vertically */
+    text-decoration: none;
+    margin: 0 5px; /* Margin for spacing between items */
+  }
+  
+  .right-menu img {
+    margin-left: 5px; /* Spacing to the left of images */
+  }
+  
+  .menu-logo, .mixi-logo {
+    width: auto;
+    height: 20px; /* Maintain aspect ratio */
+    margin: 10px 10px;
+  }
+  
+  .left-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-menu img {
+    margin: 20px; /* Increases right margin for more spacing around the image */
+  }
+  
+  .left-menu a {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  /* Menu styling */
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-family: 'Code Next-Trial', sans-serif; /* Apply the custom font */
+    font-size: 24px; /* Set the font size for the text */
+    color: black; /* Ensure the text color is black */
+  }
+  
+  .menu li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .menu a {
+    color: black; /* Set text color for links */
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar-top {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-menu,
+    .right-menu,
+    .search-container {
+      flex: 1;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .right-menu a span,
+    .menu a span {
+      display: none; /* Hide text on smaller screens */
+    }
+  
+    .right-menu a img,
+    .menu a img {
+      margin-left: 0; /* Remove left margin for icons */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .search-bar {
+      padding: 8px 15px;
+    }
+  
+    .menu {
+      font-size: 20px;
+    }
+  
+    .menu-logo, .mixi-logo {
+      height: 15px;
+    }
+  }
+  

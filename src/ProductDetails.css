@@ -1,0 +1,225 @@
+/* General styling for the product details component */
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(to right, #f3f7f6, #e5f2d9);
+  margin-top: 20px;
+}
+
+.product-details .image-section,
+.product-details .details-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.thumbnails-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure it takes the full width */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+.thumbnail-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.thumbnail-images img {
+  width: calc(100% / 3 - 10px); /* Ensures three images fit within the container, considering the gap */
+  height: auto;
+  cursor: pointer;
+  flex: none; /* Prevents images from flexing beyond their calculated width */
+}
+
+.details-section {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details-section .price {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.details-section .size-options {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.size-options span {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.sizes {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 80px;
+  border: 2px solid #6ab04c;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.size img {
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.size.selected {
+  background: #6ab04c;
+  color: #ffffff;
+  border-color: #6ab04c;
+}
+
+.size p {
+  margin: 0;
+  font-size: 16px;
+  color: inherit;
+}
+
+.size .label {
+  font-weight: bold;
+}
+
+.size .number {
+  font-size: 14px;
+}
+
+.product-description {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product-description p {
+  margin: 5px 0;
+}
+
+.buy-section {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 5vh;
+  width: fit-content;   
+}
+
+
+
+.ratings {
+  display: flex;
+  align-items: center;
+}
+
+.ratings .star {
+  color: #f1c40f;
+  font-size: 5vw;
+  margin-right: 10px;
+}
+.question{
+
+    color: #6ab04c;
+    font-size: 5vw;
+    margin-right: 10px;
+
+}
+
+.ratings .rating-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-info .rating-score {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.rating-info .rating-count {
+  font-size: 14px;
+  color: #999;
+}
+
+.rating-info .reviews-count {
+  font-size: 14px;
+  color: #999;
+}
+
+.review-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.review-summary .review-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.review-summary img {
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating-section h1 {
+  margin: 0;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1.2; /* Ensure the line-height matches the icon's height */
+}
+
+.rating-section img.favorite-icon {
+  height: 24px; /* Match the font size or adjust as needed */
+  width: auto;
+  transform: scale(1.2);
+  transition: transform 0.3s; /* Smooth transition for visibility */
+}
+
+.rating-section img.favorite-icon:hover {
+  transform: scale(1.3); /* Increase scale on hover for testing */
+}

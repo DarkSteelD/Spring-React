@@ -1,0 +1,44 @@
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    height: 10vh; /* Adjust height as needed */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent; /* Ensure the navbar has a transparent background */
+    z-index: 10; /* Higher z-index to make navbar stay on top */
+}
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.mixi-logo {
+    height: 30px; /* Adjust as needed */
+    margin: 0 10px;
+}
+
+.icon, .menu-icon {
+    height: 24px; /* Adjust as needed */
+    margin: 0 5px;
+}

@@ -1,0 +1,30 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+  }
+  
+  .image-item {
+    position: relative;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: fit-content;
+    display: block;  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+  }

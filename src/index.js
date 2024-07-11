@@ -1,13 +1,14 @@
-// src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
 import './index.css';
-import HomePage from './HomePage';
-import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <BrowserRouter basename="/Spring-React">
-    <HomePage />
-  </BrowserRouter>,
-  document.getElementById('root')
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
+  <Router basename="/Spring-React">
+    <App />
+  </Router>
 );

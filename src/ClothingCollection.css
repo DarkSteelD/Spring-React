@@ -1,0 +1,93 @@
+
+
+.collection-component h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: right;
+}
+
+.collection-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.item-info img{
+  /* 30px */
+}
+.collection-item {
+  position: relative;
+  flex: 1 1 22%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: left;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.collection-item:hover {
+  transform: scale(1.05);
+}
+
+.collection-item .item-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.collection-item .item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  color: #333;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #333;
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favorite-icon:hover {
+  transform: scale(1.2); 
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.collection-button {
+  padding: 10px 15px;
+  font-size: 24px;
+  background-color: transparent;
+  border: 0px solid #6ab04c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  color: #6ab04c;
+  text-transform: uppercase;
+}
+
+.collection-button:hover {
+  background-color: #6ab04c;
+  color: white;
+}
