@@ -1,14 +1,14 @@
 // src/App.js
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import HomePage from './HomePage';
 import ClothingFull from './ClothingFull';
-import ProductDetails from './ProdcutPage'; // Ensure the file name matches your import
+import ProductDetails from './ProdcutPage';
 import Bucket from './Bucket';
 import FavoritesPage from './FavoritesPage';
 
 const App = () => (
-  <div>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/clothing" element={<ClothingFull />} />
@@ -16,7 +16,7 @@ const App = () => (
       <Route path="/bucket" element={<Bucket />} /> 
       <Route path="/favorites" element={<FavoritesPage />} />
     </Routes>
-  </div>
+  </HashRouter>
 );
 
 export default App;
