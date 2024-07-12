@@ -1,7 +1,7 @@
 {
   "name": "spring-magaz",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://DarkSteelD.github.io/Spring-React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

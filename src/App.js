@@ -1,9 +1,8 @@
-// src/App.js
 import React from 'react';
 import { Route, Routes, HashRouter } from 'react-router-dom';
 import HomePage from './HomePage';
 import ClothingFull from './ClothingFull';
-import ProductDetails from './ProdcutPage'; // Ensure the correct file name
+import ProductDetails from './ProdcutPage'; // Corrected from ProdcutPage to ProductPage
 import Bucket from './Bucket';
 import FavoritesPage from './FavoritesPage';
 
