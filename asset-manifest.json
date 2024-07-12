@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Spring-React/static/css/main.fca1b17d.css",
+    "main.js": "/Spring-React/static/js/main.a69f8555.js",
+    "static/media/downPage.png": "/Spring-React/static/media/downPage.44689134c165891f3564.png",
+    "static/media/Pagebg.png": "/Spring-React/static/media/Pagebg.8d77ef26da289f129e82.png",
+    "static/media/Main.png": "/Spring-React/static/media/Main.b45bb6f84cc39f9f80a8.png",
+    "static/media/triangle.png": "/Spring-React/static/media/triangle.37e629e9cd29f7065195.png",
+    "static/media/аксы.png": "/Spring-React/static/media/аксы.1788f0e9d8f44897118d.png",
+    "static/media/школа.png": "/Spring-React/static/media/школа.44a53d9580a105bfcb26.png",
+    "static/media/пляж.png": "/Spring-React/static/media/пляж.86995a90e7b4b1d8ed94.png",
+    "static/media/спорт.png": "/Spring-React/static/media/спорт.05081d79afce9aa472e2.png",
+    "static/media/фото товара03.png": "/Spring-React/static/media/фото товара03.aee89102e569a04e6c54.png",
+    "static/media/фото товара05.png": "/Spring-React/static/media/фото товара05.36346c62a58d2ddab684.png",
+    "static/media/фото товара06.png": "/Spring-React/static/media/фото товара06.0afad6bba72dbf399ce0.png",
+    "static/media/фото товара01.png": "/Spring-React/static/media/фото товара01.bac5ffd8d7d4fe2c465e.png",
+    "static/media/фото товара02.png": "/Spring-React/static/media/фото товара02.b04d3df91099bf5204ee.png",
+    "static/media/фото товара04.png": "/Spring-React/static/media/фото товара04.f26d05bc4642f5d5a6d0.png",
+    "static/media/CodeNext-Trial-Regular.otf": "/Spring-React/static/media/CodeNext-Trial-Regular.e9f4ee10a19d1294747b.otf",
+    "static/media/search-icon.svg": "/Spring-React/static/media/search-icon.51eb0a0655f6c182308d.svg",
+    "static/media/мусорка.svg": "/Spring-React/static/media/мусорка.c55601f0684962761b3e2e1de27b0bfe.svg",
+    "static/media/личный каб.svg": "/Spring-React/static/media/личный каб.72b5918916949ef2140df10b073e9454.svg",
+    "static/media/меню.svg": "/Spring-React/static/media/меню.3884cc2e9cd48abe27caa33f45452470.svg",
+    "static/media/избранное.svg": "/Spring-React/static/media/избранное.d57e3c259bead8e10dfa0e33f8356d83.svg",
+    "index.html": "/Spring-React/index.html",
+    "main.fca1b17d.css.map": "/Spring-React/static/css/main.fca1b17d.css.map",
+    "main.a69f8555.js.map": "/Spring-React/static/js/main.a69f8555.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca1b17d.css",
+    "static/js/main.a69f8555.js"
+  ]
+}
