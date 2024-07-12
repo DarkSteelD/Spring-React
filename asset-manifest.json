@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Spring-React/static/css/main.723b0425.css",
-    "main.js": "/Spring-React/static/js/main.fa128b9a.js",
+    "main.css": "/Spring-React/static/css/main.5cb52b81.css",
+    "main.js": "/Spring-React/static/js/main.057580ca.js",
     "static/media/downPage.png": "/Spring-React/static/media/downPage.44689134c165891f3564.png",
     "static/media/Pagebg.png": "/Spring-React/static/media/Pagebg.8d77ef26da289f129e82.png",
     "static/media/Main.png": "/Spring-React/static/media/Main.b45bb6f84cc39f9f80a8.png",
@@ -23,11 +23,11 @@
     "static/media/меню.svg": "/Spring-React/static/media/меню.3884cc2e9cd48abe27caa33f45452470.svg",
     "static/media/избранное.svg": "/Spring-React/static/media/избранное.d57e3c259bead8e10dfa0e33f8356d83.svg",
     "index.html": "/Spring-React/index.html",
-    "main.723b0425.css.map": "/Spring-React/static/css/main.723b0425.css.map",
-    "main.fa128b9a.js.map": "/Spring-React/static/js/main.fa128b9a.js.map"
+    "main.5cb52b81.css.map": "/Spring-React/static/css/main.5cb52b81.css.map",
+    "main.057580ca.js.map": "/Spring-React/static/js/main.057580ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.723b0425.css",
-    "static/js/main.fa128b9a.js"
+    "static/css/main.5cb52b81.css",
+    "static/js/main.057580ca.js"
   ]
 }
