@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Spring-React/static/css/main.fca1b17d.css",
-    "main.js": "/Spring-React/static/js/main.a69f8555.js",
+    "main.js": "/Spring-React/static/js/main.c8716a49.js",
     "static/media/downPage.png": "/Spring-React/static/media/downPage.44689134c165891f3564.png",
     "static/media/Pagebg.png": "/Spring-React/static/media/Pagebg.8d77ef26da289f129e82.png",
     "static/media/Main.png": "/Spring-React/static/media/Main.b45bb6f84cc39f9f80a8.png",
@@ -24,10 +24,10 @@
     "static/media/избранное.svg": "/Spring-React/static/media/избранное.d57e3c259bead8e10dfa0e33f8356d83.svg",
     "index.html": "/Spring-React/index.html",
     "main.fca1b17d.css.map": "/Spring-React/static/css/main.fca1b17d.css.map",
-    "main.a69f8555.js.map": "/Spring-React/static/js/main.a69f8555.js.map"
+    "main.c8716a49.js.map": "/Spring-React/static/js/main.c8716a49.js.map"
   },
   "entrypoints": [
     "static/css/main.fca1b17d.css",
-    "static/js/main.a69f8555.js"
+    "static/js/main.c8716a49.js"
   ]
 }
