@@ -2,11 +2,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
-import PopularItems from './PopularItems';
-import ImageGrid from './ImageGrid';
 import ClothingFull from './ClothingFull';
-import FooterComponent from './FooterComponent';
-import ProductDetails from './ProdcutPage'; // Corrected from ProdcutPage to ProductPage
+import ProductDetails from './ProdcutPage'; // Ensure the file name matches your import
 import Bucket from './Bucket';
 import FavoritesPage from './FavoritesPage';
 
